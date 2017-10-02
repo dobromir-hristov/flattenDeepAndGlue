@@ -1,0 +1,36 @@
+{
+  "name": "object-to-br-separated-string",
+  "version": "1.0.0",
+  "description": "Transforms objects or arrays of strings to a string with each string on a new row with a <br/> tag.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "SET BABEL_ENV=production && rollup -c build/rollup.config.js",
+    "watch": "SET BABEL_ENV=production && rollup -c build/rollup.config.js -w",
+    "test": "SET BABEL_ENV=test && ava",
+    "test:watch": "SET BABEL_ENV=test && ava --watch "
+  },
+  "author": "Dobromir Hristov <dobri@digital-cult.com> (http://digital-cult.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-register": "^6.24.1",
+    "camelcase": "^4.1.0",
+    "rollup": "^0.45.2",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-uglify": "^2.0.1",
+    "rollup-watch": "^4.3.1"
+  },
+  "ava": {
+    "files": [
+      "tests/"
+    ]
+  },
+  "dependencies": {
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babelrc-rollup": "^3.0.0",
+    "rollup-plugin-replace": "^1.1.1"
+  }
+}
