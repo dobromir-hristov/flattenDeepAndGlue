@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/flatten-deep-and-glue)
+
 # Introduction
 
 **flattenDeepAndGlue** is a small function that expands objects or arrays of strings to separated strings, <br> by default.
