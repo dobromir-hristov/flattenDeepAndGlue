@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/flatten-deep-and-glue)
+[![npm](https://img.shields.io/npm/v/flatten-deep-and-glue.svg)](https://www.npmjs.com/package/flatten-deep-and-glue)
 
 # Introduction
 
