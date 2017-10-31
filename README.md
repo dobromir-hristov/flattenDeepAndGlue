@@ -8,7 +8,7 @@ If you don't want to create a separated toast for each error, the plugin creates
 > The examples use ES2015 syntax
 ### With module loader
 ```js
-import flatten from 'flatenDeepAndGlue'
+import flatten from 'flatten-deep-with-glue'
 
 const 
   messageToTransform = { name: 'Name is required', email: 'Email is required' },

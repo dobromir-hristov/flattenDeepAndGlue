@@ -1,5 +1,5 @@
 {
-  "name": "flattenDeepAndGlue",
+  "name": "flatten-deep-with-glue",
   "version": "1.0.0",
   "description": "Flattens deeply nested arrays and objects and transforms them to <br> separated string by default.",
   "main": "dist/flattenDeepAndGlue.js",
