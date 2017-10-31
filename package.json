@@ -1,13 +1,13 @@
 {
-  "name": "object-to-br-separated-string",
+  "name": "flattenDeepAndGlue",
   "version": "1.0.0",
-  "description": "Transforms objects or arrays of strings to a string with each string on a new row with a <br/> tag.",
-  "main": "dist/index.js",
+  "description": "Flattens deeply nested arrays and objects and transforms them to <br> separated string by default.",
+  "main": "dist/flattenDeepAndGlue.js",
+  "module": "dist/flattenDeepAndGlue.js",
   "scripts": {
     "build": "SET BABEL_ENV=production && rollup -c build/rollup.config.js",
     "watch": "SET BABEL_ENV=production && rollup -c build/rollup.config.js -w",
-    "test": "jest",
-    "test:watch": "SET BABEL_ENV=test && ava --watch "
+    "test": "jest"
   },
   "author": "Dobromir Hristov <dobri@digital-cult.com> (http://digital-cult.com/)",
   "license": "MIT",
